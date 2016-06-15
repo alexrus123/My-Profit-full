@@ -10,11 +10,17 @@
 		FE5A9BDB1AD5E471004344A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BDA1AD5E471004344A0 /* main.m */; };
 		FE5A9BDE1AD5E471004344A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BDD1AD5E471004344A0 /* AppDelegate.m */; };
 		FE5A9BE11AD5E471004344A0 /* My_Profit_full.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BDF1AD5E471004344A0 /* My_Profit_full.xcdatamodeld */; };
-		FE5A9BE41AD5E471004344A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BE31AD5E471004344A0 /* ViewController.m */; };
+		FE5A9BE41AD5E471004344A0 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BE31AD5E471004344A0 /* MainView.m */; };
 		FE5A9BE71AD5E471004344A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5A9BE51AD5E471004344A0 /* Main.storyboard */; };
 		FE5A9BE91AD5E471004344A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5A9BE81AD5E471004344A0 /* Images.xcassets */; };
 		FE5A9BEC1AD5E471004344A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5A9BEA1AD5E471004344A0 /* LaunchScreen.xib */; };
 		FE5A9BF81AD5E472004344A0 /* My_Profit_fullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BF71AD5E472004344A0 /* My_Profit_fullTests.m */; };
+		FE8ECBC91AD794F100F24D1D /* NewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8ECBC81AD794F100F24D1D /* NewItemView.m */; };
+		FE9792BB1AECE29E00848BAF /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9792BA1AECE29E00848BAF /* Helper.m */; };
+		FE9801611ADB1DC5009FFAA6 /* IncomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9801601ADB1DC5009FFAA6 /* IncomeView.m */; };
+		FE9801641ADB2240009FFAA6 /* ExpensesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9801631ADB2240009FFAA6 /* ExpensesView.m */; };
+		FEA73C511AE34FC400A3D141 /* EditIncomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA73C501AE34FC400A3D141 /* EditIncomeItem.m */; };
+		FEA73C551AE3A02A00A3D141 /* EditExpensesItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA73C541AE3A02A00A3D141 /* EditExpensesItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +40,26 @@
 		FE5A9BDC1AD5E471004344A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE5A9BDD1AD5E471004344A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FE5A9BE01AD5E471004344A0 /* My_Profit_full.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Profit_full.xcdatamodel; sourceTree = "<group>"; };
-		FE5A9BE21AD5E471004344A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE5A9BE31AD5E471004344A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE5A9BE21AD5E471004344A0 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		FE5A9BE31AD5E471004344A0 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		FE5A9BE61AD5E471004344A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE5A9BE81AD5E471004344A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FE5A9BEB1AD5E471004344A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FE5A9BF11AD5E472004344A0 /* My Profit fullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Profit fullTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5A9BF61AD5E472004344A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5A9BF71AD5E472004344A0 /* My_Profit_fullTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Profit_fullTests.m; sourceTree = "<group>"; };
+		FE8ECBC81AD794F100F24D1D /* NewItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemView.m; sourceTree = "<group>"; };
+		FE8ECBCA1AD7950C00F24D1D /* NewItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewItemView.h; sourceTree = "<group>"; };
+		FE9792BA1AECE29E00848BAF /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		FE9792BC1AECE2C600848BAF /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		FE98015F1ADB1DAD009FFAA6 /* IncomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncomeView.h; sourceTree = "<group>"; };
+		FE9801601ADB1DC5009FFAA6 /* IncomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeView.m; sourceTree = "<group>"; };
+		FE9801621ADB2220009FFAA6 /* ExpensesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpensesView.h; sourceTree = "<group>"; };
+		FE9801631ADB2240009FFAA6 /* ExpensesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesView.m; sourceTree = "<group>"; };
+		FEA73C501AE34FC400A3D141 /* EditIncomeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditIncomeItem.m; sourceTree = "<group>"; };
+		FEA73C521AE34FD400A3D141 /* EditIncomeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditIncomeItem.h; sourceTree = "<group>"; };
+		FEA73C531AE3A01400A3D141 /* EditExpensesItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditExpensesItem.h; sourceTree = "<group>"; };
+		FEA73C541AE3A02A00A3D141 /* EditExpensesItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditExpensesItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +103,21 @@
 			children = (
 				FE5A9BDC1AD5E471004344A0 /* AppDelegate.h */,
 				FE5A9BDD1AD5E471004344A0 /* AppDelegate.m */,
-				FE5A9BE21AD5E471004344A0 /* ViewController.h */,
-				FE5A9BE31AD5E471004344A0 /* ViewController.m */,
+				FE5A9BE21AD5E471004344A0 /* MainView.h */,
+				FE5A9BE31AD5E471004344A0 /* MainView.m */,
+				FE8ECBCA1AD7950C00F24D1D /* NewItemView.h */,
+				FE8ECBC81AD794F100F24D1D /* NewItemView.m */,
 				FE5A9BE51AD5E471004344A0 /* Main.storyboard */,
+				FE9792BC1AECE2C600848BAF /* Helper.h */,
+				FE9792BA1AECE29E00848BAF /* Helper.m */,
+				FEA73C531AE3A01400A3D141 /* EditExpensesItem.h */,
+				FEA73C541AE3A02A00A3D141 /* EditExpensesItem.m */,
+				FEA73C521AE34FD400A3D141 /* EditIncomeItem.h */,
+				FEA73C501AE34FC400A3D141 /* EditIncomeItem.m */,
+				FE9801621ADB2220009FFAA6 /* ExpensesView.h */,
+				FE9801631ADB2240009FFAA6 /* ExpensesView.m */,
+				FE98015F1ADB1DAD009FFAA6 /* IncomeView.h */,
+				FE9801601ADB1DC5009FFAA6 /* IncomeView.m */,
 				FE5A9BE81AD5E471004344A0 /* Images.xcassets */,
 				FE5A9BEA1AD5E471004344A0 /* LaunchScreen.xib */,
 				FE5A9BDF1AD5E471004344A0 /* My_Profit_full.xcdatamodeld */,
@@ -222,9 +252,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8ECBC91AD794F100F24D1D /* NewItemView.m in Sources */,
+				FE9801641ADB2240009FFAA6 /* ExpensesView.m in Sources */,
+				FEA73C511AE34FC400A3D141 /* EditIncomeItem.m in Sources */,
+				FE9801611ADB1DC5009FFAA6 /* IncomeView.m in Sources */,
 				FE5A9BE11AD5E471004344A0 /* My_Profit_full.xcdatamodeld in Sources */,
 				FE5A9BDE1AD5E471004344A0 /* AppDelegate.m in Sources */,
-				FE5A9BE41AD5E471004344A0 /* ViewController.m in Sources */,
+				FE5A9BE41AD5E471004344A0 /* MainView.m in Sources */,
+				FEA73C551AE3A02A00A3D141 /* EditExpensesItem.m in Sources */,
+				FE9792BB1AECE29E00848BAF /* Helper.m in Sources */,
 				FE5A9BDB1AD5E471004344A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +452,7 @@
 				FE5A9BFD1AD5E472004344A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE5A9BFE1AD5E472004344A0 /* Build configuration list for PBXNativeTarget "My Profit fullTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +461,7 @@
 				FE5A9C001AD5E472004344A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
